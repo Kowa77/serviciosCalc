@@ -1,0 +1,10 @@
+.servicio-icono {
+    width: 24px; /* Ajusta el tamaño del icono según necesites */
+    height: 24px;
+    vertical-align: middle; /* Alinea verticalmente el icono con el texto */
+    display: inline-block; /* Asegura que el margen funcione correctamente */
+}
+
+.list-group-item.seleccionado {
+    background-color: #f0f8ff !important; /* Un color azul claro como ejemplo */
+}
