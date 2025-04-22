@@ -8,3 +8,17 @@
 .list-group-item.seleccionado {
     background-color: #f0f8ff !important; /* Un color azul claro como ejemplo */
 }
+
+
+/*boton intermitente de descuento*/
+.boton-descuento-intermitente {
+    animation: parpadeo 1s infinite alternate;
+    background-color: #ffcc00; /* Color de fondo del botón */
+    font-style: italic; /* Estilo de fuente en cursiva */
+    font-weight: bold;
+}
+@keyframes parpadeo {
+from { opacity: 1; }
+to { opacity: 0.5; }
+
+}
